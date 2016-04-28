@@ -1,0 +1,30 @@
+body { font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  background: #EEE;
+  max-width: 1220px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 300px;
+  height: 300px;
+  float: left;
+  background: #D26;
+  border: 1px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.grid-item--width2 { width: 600px; }
+
+.grid-item--height2 { height: 600px; }
